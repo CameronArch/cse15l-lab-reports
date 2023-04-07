@@ -35,7 +35,7 @@
 5. In the terminal, click the dropdown by the +. Click Git Bash.
 ![Image](gitBash.png)
 
-6. To remotely connect, use **$ ssh cs15lsp23zz@ieng6.ucsd.edu** in the terminal. Change the **zz** to match your account.
+6. To remotely connect, use **$ ssh cs15lsp23zz@ieng6.ucsd.edu** in the terminal. Change the **zz** to match your account. (If terminal says "Connection to ieng6.ucsd.edu closed by remote host" or some other error, try **$ ssh cs15lsp23zz@ieng6-202.ucsd.edu**)
 ![Image](Login.png)
 
 7. If it asks you "Are you sure you want to continue connecting (yes/no/[fingerprint])?" Type yes.
@@ -55,7 +55,9 @@
 2. An example command is **pwd** which will output your current working directory
 ![Image](pwd.png)
 
-3. To log out, use Ctrl D or run the command **exit**.     
+3. Other commands you could try are **cd *path*** to change the current directory, **cat *path1* *path2* ...** to print the contents one or files, and **ls *path*** to list the files and folders of given path.
+
+4. To log out, use Ctrl D or run the command **exit**.     
 
 ![Image](logout.png)
 
