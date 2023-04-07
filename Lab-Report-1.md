@@ -47,13 +47,16 @@
 9. Once you are connected, your screen will look something like this.
 ![Image](LoggedIn.png)
 
-10. To log out, use Ctrl D or run the command **exit**.
-
 ## Step 3: Trying Commands
 
 1. Type any command you would like to use into the console.
 ![Image](cmd.png)
 
-2. 
+2. An example command is **pwd** which will output your current working directory
+![Image](pwd.png)
+
+3. To log out, use Ctrl D or run the command **exit**.
+
+![Image](logout.png)
 
 
