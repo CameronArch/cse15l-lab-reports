@@ -39,6 +39,7 @@
 ![Image](Login.png)
 
 7. If it asks you "Are you sure you want to continue connecting (yes/no/[fingerprint])?" Type yes.
+![Image](Yes.png)
 
 8. Then, it will ask for your password. Type your password in. **Note: You cannot see your password when typing it in**
 ![Image](Password.png)
