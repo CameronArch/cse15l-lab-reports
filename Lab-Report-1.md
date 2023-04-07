@@ -43,4 +43,9 @@
 8. Then, it will ask for your password. Type your password in. **Note: You cannot see your password when typing it in**
 ![Image](Password.png)
 
+9. Once you are connected, your screen will look something like this.
+![Image](LoggedIn.png)
+
+10. To log out, use Ctrl D or run the command **exit**.
+
 
