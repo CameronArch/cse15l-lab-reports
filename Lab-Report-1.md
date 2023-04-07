@@ -21,5 +21,9 @@
 ![Image](gitInstaller.png)
 3. Hit next without changing anything. Then, click install. 
 ![Image](gitinstall.png)
-4. 
+4. Next, go to Visual Code Studio and open a terminal (Click Terminal -> New Terminal)
+![Image](terminal.png)
+5. In the terminal, click the dropdown by the +. Click Git Bash.
+![Image](gitBash.png)
+6. 
 
