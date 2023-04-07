@@ -9,7 +9,7 @@
 ![Image](installer.png)
 4. Accept the terms and click next until you see install. 
 ![Image](terms.png)!![Image](next.png)
-5. Click install.
+5. Click install.                     
 ![Image](install.png)
 6. Finally, open Visual Studio Code. 
 ![Image](VScode.png)
