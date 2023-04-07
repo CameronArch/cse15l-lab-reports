@@ -49,4 +49,11 @@
 
 10. To log out, use Ctrl D or run the command **exit**.
 
+## Step 3: Trying Commands
+
+1. Type any command you would like to use into the console.
+![Image](cmd.png)
+
+2. 
+
 
