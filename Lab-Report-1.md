@@ -55,7 +55,7 @@
 2. An example command is **pwd** which will output your current working directory
 ![Image](pwd.png)
 
-3. To log out, use Ctrl D or run the command **exit**.
+3. To log out, use Ctrl D or run the command **exit**.     
 
 ![Image](logout.png)
 
