@@ -6,16 +6,14 @@ This is my code for my web server called `StringServer`
 ```
 import java.io.IOException;
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.List;
 
 class Handler3 implements URLHandler {
     
-    List<String> lis = new ArrayList<>();
-    String[] l = {"a \n","b"};
+    String str = "";
+
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
-            return String.format("%s", lis);
+            return String.format("%s", str);
         }
 
         else {
@@ -23,13 +21,7 @@ class Handler3 implements URLHandler {
             if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
-                    lis.add(parameters[1]+ "\n");
-                    
-                    String str = "";
-                    
-                    for(String s: lis) {
-                        str += s;
-                    }
+                    str += parameters[1]+ "\n";
                     
                     return String.format("%s",str);
                 }
@@ -53,5 +45,13 @@ class StringServer {
 }
 ```
 
-The first message I added was "Hello"
+The first message I added was "Hello" to my web server.
+
+Methods called: `handleRequest` is called when adding the message "Hello".
+
+Arguement to `handleRequest`: "http://localhost:4000/add-message?s=Hello" is the argument passed to `handleRequest`.
+
+Relevant Fields: `String[] parameters` holds the query which is split by "=" so it contains "s" in the first index and "Hello" in the second index. 
+                 `String str` holds all of the messages added to the web server and starts out as "". After the `handleRequest` is called, `str` contains "Hello\n".
+
 ![Image](Message1.png)
