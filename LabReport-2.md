@@ -58,6 +58,11 @@ Relevant Fields: `String[] parameters` holds the query which is split by "=" so 
 
 The second message I added was "How's it going 1" to my web server.
 
+Methods called: `handleRequest` is called when adding the message "How's it going 1".
 
+Arguement to `handleRequest`: "http://localhost:4000/add-message?s=How's it going 1" is the argument passed to `handleRequest`.
+
+Relevant Fields: `String[] parameters` contains "s" in the first index and "How's it going 1" in the second index. 
+                 `String str` contains previously added messages so it contains "Hello\n". After the `handleRequest` is called again, `str` contains "Hello\nHow's it going 1\n".
 
 ![Image](Message2.png)
