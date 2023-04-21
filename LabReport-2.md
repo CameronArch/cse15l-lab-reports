@@ -117,4 +117,6 @@ Originally, the buggy program was replacing the first half of elements in the ar
 **Testing Bug-Fixed Program:**
 ![Image](BugFixedTest.png)
 
+## Part 3 - Something New I Learned
 
+Something new I learned about in the past two weeks that I did not know before what how to run my own web server. I had never tried to create my own before CSE 15L, so I never took the time to figure out how to code it. I found it really intriguing even though the servers we created in lab were very basic. Eventually, I hope to code a much more complex web server to increase my understanding of them.
