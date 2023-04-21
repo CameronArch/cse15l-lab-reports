@@ -111,8 +111,8 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
-**Fix Explanation**
-Originally, the buggy program was replacing the first half of elements in the array with the second half of the elements without containing the elements being replaced somewhere else first. This meant the elements being replaced were essentially erased from the array and could no longer be swapped to the index of the element taking its place. The fix was to create a `temp` variable to temporarily hold the element being replaced (`int temp = arr[i];`). Then, after the element is replaced, the element in `temp` is set to the index of the element that replaced it (`arr[arr.length - i-1] = temp;`). Finally, to ensure once the array is reversed that the program does not reverse it back to the original order, the loop needs to end after swapping the first half of the elements with the second half of elements (`i < arr.length/2`).
+**Fix Explanation:**                                              
+Originally, the buggy program was replacing the first half of elements in the array with the second half of the elements without containing the elements being replaced somewhere else first. This meant the elements being replaced were essentially erased from the array and could no longer be swapped to the index of the element taking its place. The fix was to create a `temp` variable to temporarily hold the element being replaced (`int temp = arr[i];`). Then, after the element is replaced, the index of the element that replaced it is set to element in `temp` (`arr[arr.length - i-1] = temp;`). Finally, to ensure once the array is reversed that the program does not reverse it back to the original order, the loop needs to end after swapping the first half of the elements with the second half of elements (`i < arr.length/2`).
 
 **Testing Bug-Fixed Program:**
 ![Image](BugFixedTest.png)
