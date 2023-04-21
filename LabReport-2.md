@@ -66,3 +66,36 @@ Relevant Fields: `String[] parameters` contains "s" in the first index and "How'
                  `String str` contains previously added messages so it contains "Hello\n". After the `handleRequest` is called again, `str` contains "Hello\nHow's it going 1\n".
 
 ![Image](Message2.png)
+
+## Part 2 - Bugs
+
+**Buggy Program:**
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+**Failure Inducing Input:** 
+```
+@Test 
+	public void testReverseInPlaceFail() {
+    int[] input2 = {1,2,3};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{ 3,2,1 }, input2);
+	}
+```
+
+**Non-Failure Inducing Input:**
+```
+@Test 
+	public void testReverseInPlaceNonFail() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+```
+
+**Symptom:**
+![Image](Symptom.png)
