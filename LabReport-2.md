@@ -111,5 +111,10 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
+**Fix Explaination**
+
+
 **Testing Bug-Fixed Program:**
-![Image](BugFixTest.png)
+![Image](BugFixedTest.png)
+
+
