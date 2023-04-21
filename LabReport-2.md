@@ -52,3 +52,6 @@ class StringServer {
     }
 }
 ```
+
+The first message I added was "Hello"
+![Image](Message1.png)
