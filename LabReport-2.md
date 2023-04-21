@@ -55,3 +55,9 @@ Relevant Fields: `String[] parameters` holds the query which is split by "=" so 
                  `String str` holds all of the messages added to the web server and starts out as "". After the `handleRequest` is called, `str` contains "Hello\n".
 
 ![Image](Message1.png)
+
+The second message I added was "How's it going 1" to my web server.
+
+
+
+![Image](Message2.png)
