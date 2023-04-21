@@ -2,8 +2,8 @@
 
 ## Part 1 - Web Server
 
-This is my code for my web server called 'StringServer'
-'''
+This is my code for my web server called `StringServer`
+```
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -51,4 +51,4 @@ class StringServer {
         Server.start(port, new Handler3());
     }
 }
-'''
+```
