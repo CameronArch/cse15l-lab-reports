@@ -13,4 +13,16 @@ This command-line option ignores the case of the letters, so the pattern given w
 [Citation}(https://man7.org/linux/man-pages/man1/grep.1.html)
 
 **Example 1:**                                                                                                          
-![image](ivExample.png)
+```
+[cs15lsp23qx@ieng6-203]:technical:236$ grep -i "iv" government/Media/5_Legal_Groups.txt 
+Five independent Salt Lake organizations that provide legal
+last Wednesday their board members were given a tour of the
+Community Legal Center hosted by staff members of the five
+building and not paying rent times five will save the non-profit
+desperate for a protective order, for example, have to run all over
+explained, and so it was important who would be living there. I
+Stewart Ralphs, the executive director of the Legal Aid Society,
+cost received so far. There still needed to be furnishings and
+```
+
+**Example 2:**                                                                           
