@@ -6,7 +6,7 @@
 
 `grep` is used to print out lines within a designated file that match the given pattern.
 
-## Option 1 - `-i`
+## Option 1: `-i`
 
 This command-line option ignores the case of the letters, so the pattern given will match with the same characters regardless if their cases match or not. This could be useful when needing to find lines that match a pattern but you are unsure if the pattern in the lines have capital letters or not.
 
@@ -38,7 +38,7 @@ Stewart Ralphs, the executive director of the Legal Aid Society,
 cost received so far. There still needed to be furnishings and
 ```
 
-## Option 2 - `-v`
+## Option 2: `-v`
 
 This command-line option inverts the matching of the lines to print out non-matching lines. This could be useful in wanting to find lines in a file without a certain word or pattern.
 
@@ -82,7 +82,7 @@ this trying time."
 
 ```
 
-## Option 3 - `-w`
+## Option 3: `-w`
 
 This command-line option finds lines that have only whole words matching the pattern. The substring in the line will only match if there is a non-word constituent character infront and behind it. Word-constituent characters are letters, digits, and the underscore. This could be useful in finding lines in a file the have a specific stand-alone word in it. 
 
@@ -102,7 +102,7 @@ residents and business owners impacted by last week's floods.
 registered them for Red Cross services. That's incorrect, Andreas
 ```
 
-## Option 3 - `-c`
+## Option 4: `-c`
 
 This command-line option finds the lines in the given file with the pattern in them and prints the number of lines matching. This is useful if you only need to know the amount of lines that match the pattern but you do not want to count the lines printed manually.
 
