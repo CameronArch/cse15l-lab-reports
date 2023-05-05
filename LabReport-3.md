@@ -10,7 +10,7 @@
 
 This command-line option ignores the case of the letters, so the pattern given will match with the same characters regardless if their cases match or not. This could be useful when needing to find lines that match a pattern but you are unsure if the pattern in the lines have capital letters or not.
 
-[Citation}(https://man7.org/linux/man-pages/man1/grep.1.html)
+[Citation](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 **Example 1:**                                                                                                          
 ```
@@ -42,7 +42,7 @@ cost received so far. There still needed to be furnishings and
 
 This command-line option inverts the matching of the lines to print out non-matching lines. This could be useful in wanting to find lines in a file without a certain word or pattern.
 
-[Citation}(https://man7.org/linux/man-pages/man1/grep.1.html)
+[Citation](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 **Example 1:**
 ```
@@ -86,7 +86,7 @@ this trying time."
 
 This command-line option finds lines that have only whole words matching the pattern. The substring in the line will only match if there is a non-word constituent character infront and behind it. Word-constituent characters are letters, digits, and the underscore. This could be useful in finding lines in a file the have a specific stand-alone word in it. 
 
-[Citation}(https://man7.org/linux/man-pages/man1/grep.1.html)
+[Citation](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 **Example 1:**
 ```
@@ -106,7 +106,7 @@ registered them for Red Cross services. That's incorrect, Andreas
 
 This command-line option finds the lines in the given file with the pattern in them and prints the number of lines matching. This is useful if you only need to know the amount of lines that match the pattern but you do not want to count the lines printed manually.
 
-[Citation}(https://man7.org/linux/man-pages/man1/grep.1.html)
+[Citation](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 **Example 1:**
 ``` 
