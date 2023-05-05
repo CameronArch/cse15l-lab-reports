@@ -12,5 +12,5 @@ This command-line option ignores the case of the letters, so the pattern given w
 
 [Citation}(https://man7.org/linux/man-pages/man1/grep.1.html)
 
-**Example 1:
+**Example 1:**
 ![image](ivExample.png)
