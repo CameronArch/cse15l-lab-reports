@@ -4,7 +4,7 @@
 
 **Formatting:** `grep <Options> <Pattern> <FileName>`
 
-`grep` is used to print out lines within designated file that match the given pattern.
+`grep` is used to print out lines within a designated file that match the given pattern.
 
 ## Option 1 - `-i`
 
