@@ -30,7 +30,7 @@
 
 ## Task 5: Run the tests, demonstrating that they now succeed
 
-![Image](task5.png)
+![Image](task5.png)                                                                                     
 **Keys pressed:** `<up>` `<up>` `<enter>`
 
 **Description:** The 2 uses of `<up>` was to get `bash test.sh` which was 2 up in the search history. 
