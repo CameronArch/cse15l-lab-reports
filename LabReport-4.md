@@ -26,14 +26,14 @@
 ![Image](task4-1.png)
 **Keys pressed:** v i m `<space>` L `<tab>` . j a v a `<enter>` ? i `<enter>` e r 2 : w q `<enter>`
 
-**Description:**
+**Description:** The `<tab>` expands L to ListExamples. Then I added .java to get `vim ListExamples.java` and edit the file. `?i` finds the last instance of "i" in the file which was where the error was. `e` was used to get to the end of "index1" and `r2` was used to change the "1" to "2" to fix the error. `:wq` saved and exited vim.
 
 ## Task 5: Run the tests, demonstrating that they now succeed
 
 ![Image](task5.png)
-**Keys pressed:**
+**Keys pressed:** `<up>` `<up>` `<enter>`
 
-**Description:**
+**Description:** The 2 uses of `<up>` was to get `bash test.sh` which was 2 up in the search history. 
 
 ## Task 6: Commit and push the resulting change to your Github account
 
