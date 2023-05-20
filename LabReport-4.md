@@ -23,8 +23,8 @@
 
 ## Task 4: Edit the code file to fix the failing test
 
-![Image](task4.png)
-**Keys pressed:**
+![Image](task4-1.png)
+**Keys pressed:** v i m `<space>` L `<tab>` . j a v a `<enter>` ? i `<enter>` e r 2 : w q `<enter>`
 
 **Description:**
 
