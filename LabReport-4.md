@@ -38,7 +38,7 @@
 ## Task 6: Commit and push the resulting change to your Github account
 
 ![Image](task6.png)
-**Keys pressed:** git `<space>` a d d `<space>` L `<tab>` . j a v a `<enter>` g i t `<space>` c o m m i t `<space>` - m `<space>` " f i x e d `<space>` e r r o r " `<enter>` g i t `<space>` p u s h `<enter>`
+**Keys pressed:** git `<space>` a d d `<space>` L `<tab>` . j a v a `<enter>` g i t `<space>` c o m m i t `<space>` - m `<space>` " f i x e d `<space>` e r r o r " `<enter>` g i t `<space>` p u s h `<space>` `<ctrl v>` `<enter>`
 
-**Description:** First, "L `<tab>`" expands to ListExamples and ".java is added. `git add` adds the changes in `ListExamples.java` to staging area for git. Then, `git commit -m "fixed error"` captures a snapshot of the current staged changes with the message "fixed error". Finally, `git push` is used to upload the local content to the remote repository.
+**Description:** First, "L `<tab>`" expands to ListExamples and ".java is added. `git add` adds the changes in `ListExamples.java` to staging area for git. Then, `git commit -m "fixed error"` captures a snapshot of the current staged changes with the message "fixed error". Finally, `git push` with `<crtl v>`, which pastes `git@github.com:CameronArch/lab7.git` that I had copied on my clipboard, is used to upload the local content to the remote repository.
 
