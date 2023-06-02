@@ -139,9 +139,11 @@ Solution: In your `grade.sh` script, you need to copy `TestListExamples.java` in
 
 ## Student Reply - Bug Fixed
 
-Thank you! It is woring as expected now.
+Thank you! It is working as expected now.
 
 ![Image](StudentFIx.png)
+
+## The Setup
 
 
 
