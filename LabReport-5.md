@@ -1,6 +1,6 @@
 # Lab Report 5 - Debugging Scenario
 
-## Student Debugging Post
+## Part 1 - Student Debugging Post
 
 **1) Environment:** 
 Operating system = Windows 11, Editor = Visual Studio Code, Terminal = Git Bash in VS Code
@@ -458,3 +458,6 @@ echo `cat failure.txt`
 echo `cat success.txt`
 ```
 
+## Part 2 - Reflection
+
+I think the most important thing I learned from lab in the second half of the quarter was how to remotely access and edit files along with using github from the terminal. Knowing git commands makes it more convenient to add and send changes to github repositories instead of have to open GitHub Desktop each time. For editing files remotely, I forsee myself using vim very often instead of downloading files, opening them in VS Code, and then sending them back for future personal projects I plan to do. Also, I plan to try to learn many of the vim shortcuts as I think that would be something cool to know and use often.
