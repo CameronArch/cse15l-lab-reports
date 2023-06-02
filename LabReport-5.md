@@ -133,7 +133,7 @@ Tests run: 1,  Failures: 1
 
 ## TA Response - Solution
 
-It appears that the file `TestListExamples.java` is within the `grading-area` directory. This means there are not any tests being ran on the student submission of `ListExamples.java`. The bug is that `TestListExamples.java` does not exist in the `grading-area` directory where the student submission is contained, so there is not a file for testing the submission.
+It appears that the file `TestListExamples.java` is not within the `grading-area` directory. This means there are not any tests being ran on the student submission of `ListExamples.java`. The bug is that `TestListExamples.java` does not exist in the `grading-area` directory where the student submission is contained, so there is not a file for testing the submission.
 
 Solution: In your `grade.sh` script, you need to copy `TestListExamples.java` into `grading-area` as well which should fix the bug.
 
@@ -394,9 +394,9 @@ grading-area
 
 **Bug Fix**
 
-To fix the bug, `grade.sh` needs to be edited. It needs an additional line of code to copy `ListExamples.java` into `grading-area`. The line of code to add is `cp -r *.java grading-area` and it need to be placed with the other lines of code that copy files into `grading area`. 
+To fix the bug, `grade.sh` needs to be edited. It needs an additional line of code to copy `ListExamples.java` into `grading-area`. The line of code to add is `cp -r *.java grading-area` and it needs to be placed with the other lines of code that copy files into `grading area`. 
 
-Lines of code the for fix to be placed with:
+The lines of code that the fix needs to be placed with:
 ```
 cp -r $file grading-area
 cp -r lib grading-area
