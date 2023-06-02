@@ -145,6 +145,9 @@ Thank you! It is working as expected now.
 
 ## The Setup
 
+**Directories Needed:** `list-examples-grader`, `lib`
 
+**Files/Directories Contained in `list-examples-grader`:** `lib`, `grade.sh`, `GradeServer.java`, `TestListExamples.java`, `Server.java`, `.gitignore`
 
+**Files Needed and Contained in `lib`:** `junit-4.13.2.jar`, `hamcrest-core-1.3.jar`
 
