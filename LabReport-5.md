@@ -133,7 +133,15 @@ Tests run: 1,  Failures: 1
 
 ## TA Response - Solution
 
+It appears that the file `TestListExamples.java` is within the `grading-area` directory. This means there are not any tests being ran on the student submission of `ListExamples.java`. The bug is that `TestListExamples.java` does not exist in the `grading-area` directory where the student submission is contained, so there is not a file for testing the submission.
 
+Solution: In your `grade.sh` script, you need to copy `TestListExamples.java` into `grading-area` as well which should fix the bug.
+
+## Student Reply - Bug Fixed
+
+Thank you! It is woring as expected now.
+
+![Image](StudentFix.png)
 
 
 
