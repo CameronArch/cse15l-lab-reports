@@ -91,7 +91,7 @@ echo `cat success.txt`
 
 ## TA Response
 
-First, run `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`. Then, show what is contained in result.txt with `cat grading-area/result.txt`. Fianlly, send a screenshot of the terminal output or a copy of the output.
+First, run `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`. Then, show what is contained in result.txt with `cat grading-area/result.txt`. Finally, send a screenshot of the terminal output or a copy of the output.
 
 ## Student Reply
 
