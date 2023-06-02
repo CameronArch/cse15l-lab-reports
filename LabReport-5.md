@@ -387,6 +387,7 @@ public class Server {
 *.txt
 grading-area
 ```
+*Must Download JUNIT to get `junit-4.13.2.jar` and `hamcrest-core-1.3.jar` files*
 
 **Command Line to Trigger Bug**
 
