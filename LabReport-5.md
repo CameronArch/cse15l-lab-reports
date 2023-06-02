@@ -25,8 +25,11 @@ Actual: Both `https://github.com/ucsd-cse15l-f22/list-methods-corrected` and `ht
 
 **3) Failure-Inducing Input and Context:** 
 Failure-inducing input: `https://github.com/ucsd-cse15l-f22/list-methods-corrected`
+
 The commands used: `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected` and `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3`
+
 Working Directory: `list-examples-grader`
+
 Last commands ran: None, this is a new terminal
 
 `TestListExamples.java` is unchanged compared to given file.
@@ -85,6 +88,50 @@ echo `cat failure.txt`
 
 echo `cat success.txt`
 ```
+
+## TA Response
+
+First, run `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected`. Then, show what is contained in result.txt with `cat grading-area/result.txt`. Fianlly, send a screenshot of the terminal output or a copy of the output.
+
+## Student Reply
+
+![Image](StudentBug2.png)
+```
+Camer@Cameron-Laptop MINGW64 ~/OneDrive/Documents/GitHub/list-examples-grader (main)
+$ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected
+Cloning into 'student-submission'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+
+Camer@Cameron-Laptop MINGW64 ~/OneDrive/Documents/GitHub/list-examples-grader (main)
+$ cat grading-area/results.txt
+JUnit version 4.13.2
+.E
+Time: 0.008
+There was 1 failure:
+1) initializationError(org.junit.runner.JUnitCommandLineParseResult)
+java.lang.IllegalArgumentException: Could not find class [TestListExamples]
+        at org.junit.runner.JUnitCommandLineParseResult.parseParameters(JUnitCommandLineParseResult.java:100)
+        at org.junit.runner.JUnitCommandLineParseResult.parseArgs(JUnitCommandLineParseResult.java:50)
+        at org.junit.runner.JUnitCommandLineParseResult.parse(JUnitCommandLineParseResult.java:44)
+        at org.junit.runner.JUnitCore.runMain(JUnitCore.java:72)
+        at org.junit.runner.JUnitCore.main(JUnitCore.java:36)
+Caused by: java.lang.ClassNotFoundException: TestListExamples
+        at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+        at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+        at java.base/java.lang.Class.forName0(Native Method)
+        at java.base/java.lang.Class.forName(Class.java:467)
+        at org.junit.internal.Classes.getClass(Classes.java:42)
+        at org.junit.internal.Classes.getClass(Classes.java:27)
+        at org.junit.runner.JUnitCommandLineParseResult.parseParameters(JUnitCommandLineParseResult.java:98)
+        ... 4 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+```
+
+## TA Response - Solution
 
 
 
