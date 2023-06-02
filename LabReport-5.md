@@ -141,7 +141,7 @@ Solution: In your `grade.sh` script, you need to copy `TestListExamples.java` in
 
 Thank you! It is woring as expected now.
 
-![Image](StudentFix.png)
+![Image](StudentFIx.png)
 
 
 
